@@ -1,0 +1,25 @@
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+torch>=2.0.0
+faiss-cpu>=1.7.4  # Use faiss-gpu if you have CUDA support
+sentence-transformers>=2.2.2
+
+# Database
+SQLAlchemy>=2.0.0  # Optional alternative to sqlite3
+aiosqlite>=0.19.0  # For async database operations
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+tqdm>=4.65.0  # For progress bars during batch processing
+
+# API and async support
+aiohttp>=3.8.0
+asyncio>=3.4.3
+
+# Optional but recommended
+pytest>=7.3.1  # For testing
+python-dotenv>=1.0.0  # For environment variables
+
+openai==1.54.4
